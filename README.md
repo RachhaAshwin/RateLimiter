@@ -1,2 +1,2 @@
 # RateLimiter
-Description This is an demo implementation of rate limiting in go using token bucket algorithm.
+A rate limiter is used to control the rate of a certain action or event. For example, it can be used to limit the number of requests made to a web server in a given time period to prevent overwhelming the server. The simplest form of a rate limiter is a token bucket algorithm. In this algorithm, tokens are added to a bucket at a certain rate, and actions are only allowed if there are enough tokens in the bucket.
